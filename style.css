@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons-section {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.createFieldButton {
+    color: rgb(54, 49, 94);
+    background-color: rgb(198, 195, 218);
+    padding: 5px;
+    margin-left: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(95, 95, 194);
+    cursor: pointer;
+}
+
+#changeColor {
+    margin-left: 2rem;
+    border: none;
+}
+
+
+
+.drawing-section {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-container {
+    border: 0px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(190, 199, 199);
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.row div {
+    border: 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: rgb(190, 199, 199);
+    user-select: none;
+    -webkit-user-drag: none;
+
+}
+
+.row .box16 {
+    width: 2rem;
+    padding-bottom: 2rem;
+}
+
+.row .box32 {
+    width: 1rem;
+    padding-bottom: 1rem;
+}
+
+.row .box64 {
+    width: 0.5rem;
+    padding-bottom: 0.5rem;
+}
